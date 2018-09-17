@@ -132,14 +132,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |-------+------+------+------+------+------|------+------+------+------+------+------| 
  * |       |      |      |      |      |      |      |      |      |      |      |      |
  * |-------+------+------+------+------+------+------+------+------+------+------+------|
- * |       |      |      |      |      |             |      | MUTE |VOLDWN|VOL UP|      |
+ * |       |M_PREV|M_PLAY|M_NEXT|      |             |      | MUTE |VOLDWN|VOL UP|      |
  * `-----------------------------------------------------------------------------------'
  */
     [_SPACE_FN] = LAYOUT_planck_grid(
         KC_PSCR, XXXXXXX, KC_UP, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, KC_SLEP,
         XXXXXXX, KC_LEFT, KC_DOWN, KC_RIGHT, XXXXXXX, XXXXXXX, KC_LEFT, KC_DOWN, KC_UP, KC_RIGHT, XXXXXXX, XXXXXXX,
         XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX,
-        XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, XXXXXXX, _______, _______, XXXXXXX, KC__MUTE, KC__VOLDOWN, KC__VOLUP, XXXXXXX),
+        XXXXXXX, KC_MPRV, KC_MPLY, KC_MNXT, XXXXXXX, _______, _______, XXXXXXX, KC__MUTE, KC__VOLDOWN, KC__VOLUP, XXXXXXX),
 
     /* Adjust (Lower + Raise)
  * ,-----------------------------------------------------------------------------------.
